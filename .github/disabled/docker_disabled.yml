@@ -24,7 +24,7 @@ jobs:
 
         with:
 
-          name:  HuntingBots/SnowWhiteRobot
+          name:  xdipesh/NatsuoBot
 
           username: ${{ secrets.DOCKER_USERNAME }}
 
