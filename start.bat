@@ -1,4 +1,4 @@
 @echo off
-TITLE SnowWhite Robot
-:: Enables virtual env mode and then starts saitama
-env\scripts\activate.bat && py -m SnowWhiteRobot
+TITLE Natsuo Bot
+:: Enables virtual env mode and then starts Natsuo
+env\scripts\activate.bat && py -m NatsuoBot
