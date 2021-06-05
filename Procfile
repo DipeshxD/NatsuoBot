@@ -1,3 +1,3 @@
-worker: python3 -m SnowWhiteRobot
-web: python3 -m SnowWhiteRobot
+worker: python3 -m NatsuoBot
+web: python3 -m NatsuoBot
 ps:scale worker=1
