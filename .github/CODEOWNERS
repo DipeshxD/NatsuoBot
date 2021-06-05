@@ -2,9 +2,9 @@
 # Default owners for everything in the repo, unless a later match takes precedence
 
 # Phoenix owns the files under blacklist thingies
-/SnowWhiteRobot/modules/blacklistusers.py @rsktg
-/SnowWhiteRobot/modules/sql/blacklistusers_sql.py @rsktg
+/NatsuoBot/modules/blacklistusers.py @rsktg
+/NatsuoBot/modules/sql/blacklistusers_sql.py @rsktg
 #pep8-ing the code doesn't change maker
-/SnowWhiteRobot/modules/paste.py @DragSama
-/SnowWhiteRobot/modules/speed_test.py @DragSama
+/NatsuoBot/modules/paste.py @DragSama
+/NatsuoBot/modules/speed_test.py @DragSama
 
