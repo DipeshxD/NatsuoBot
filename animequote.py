@@ -1,9 +1,9 @@
 import html
 import random
-import SnowWhiteRoBot.modules.animequote_string as animequote_string
-from SnowWhiteRoBot import dispatcher
+import NatsuoBot.modules.animequote_string as animequote_string
+from NatsuoBot import dispatcher
 from telegram import ParseMode, Update, Bot
-from SnowWhiteRobot.modules.disable import DisableAbleCommandHandler
+from NatsuoBot.modules.disable import DisableAbleCommandHandler
 from telegram.ext import CallbackContext, run_async
 
 @run_async
