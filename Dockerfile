@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/SnowWhiteRobot
-RUN git clone -b shikhna https://github.com/HuntingBots/SnowWhiteRobot /root/SnowWhiteRobot
-WORKDIR /root/SnowWhiteRobot
+# Copy Python Requirements to /root/NatsuoBot
+RUN git clone -b shikhna https://github.com/xdipesh/NatsuoBot /root/NatsuoBot
+WORKDIR /root/NatsuoBot
 
-#Copy config file to /root/SnowWhiteRoBot/SnowWhiteRobot
-COPY ./SnowWhiteRoBot/sample_config.py ./SnowWhiteRoBot/config.py* /root/SnowWhiteRoBot/SnowWhiteRoBot/
+#Copy config file to /root/NatsuoBot/NatsuoBot
+COPY ./NatsuoBot/sample_config.py ./NatsuoBot/config.py* /root/NatsuoBot/NatsuoBot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","SnowWhiteRobot"]
+CMD ["python3","-m","NatsuoBot"]
