@@ -102,7 +102,7 @@
 
       "REDIS_URL": {
          "description": "Get REDIS_URL from  https://app.redislabs.com, used for run your bot modules.",
-         "required": true,
+         "required": false,
          "value": ""
 
       }, 
