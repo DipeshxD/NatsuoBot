@@ -185,7 +185,7 @@ SUDO_USERS.add(712008424)
 
 DEV_USERS.add(OWNER_ID)
 
-REDIS = StrictRedis.from_url(REDIS_URL/,decode_responses=True)
+REDIS = StrictRedis.from_url(REDIS_URL,decode_responses=True)
 try:
     REDIS.ping()
     LOGGER.info("Your redis server is now alive!")
